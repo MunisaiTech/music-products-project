@@ -1,0 +1,256 @@
+
+.home .product-bio{
+    color: white;
+    margin: 200px 900px 0px 50px;
+    padding-left: 50px;
+    padding-right: 100px;
+    font-size: 25px;
+}
+.home .product-bio #p2 span{
+    font-size:25px;
+    margin-right: 15px;
+}
+.home .product-bio #p2 del{
+    color: rgba(255, 255, 255, 0.576);
+    font-size: 17px;
+}
+.home .product-bio button{
+    padding: 10px;
+    margin-top: 20px;
+    background-color: rgb(206, 38, 38);
+    color: rgba(255, 255, 255, 0.81);
+    font-size: 15px;
+}
+.home .product-bio a{
+    text-decoration: none;
+    color:white;
+}
+.home .product-bio button:hover{
+    border: 1px solid rgba(255, 255, 255, 0.86);
+}
+.home .main-product img{
+    height: 450px;
+    width: 450px;
+    position: absolute;
+    bottom: 230px;
+    left: 900px;
+    cursor: pointer;
+}
+.home .dots{
+    text-align: center;
+}
+.home .dots .dot{
+    height: 9px;
+    width: 9px;
+    background-color:rgba(83, 81, 81, 0.416);
+    display: inline-block;
+    margin-top: 170px;
+    border-radius: 50%;
+    
+}
+.home .dots #dot2{
+    background-color: red;
+}
+.p-scroll h2{
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 30px;
+}
+.p-scroll .p-list{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 120px;
+    margin-left: 30px;
+    padding: 100px 100px 100px 0px;
+    text-align: center;
+}
+.p-list h4{
+    color:rgba(255, 255, 255, 0.658);
+}
+.p-list p span{
+    color: white;
+    margin-right:15px;
+    font-size: 20px;
+}
+.p-list p del{
+    color: rgba(255, 255, 255, 0.581);
+}
+.p-scroll .p-list .prd1 img{
+    width: 100px;
+    height: 100px;
+}
+.p-list .prd2{
+    position: absolute;
+    left: 300px;
+    top:1020px;
+
+}
+.p-scroll .p-list .prd2 img{
+    height: 200px;
+    width: 200px;
+}
+.p-list .prd3{
+    position: absolute;
+    left: 560px;
+    top:950px;
+    font-size: 25px;
+    margin-left: 50px;
+}
+.p-scroll .p-list .prd3 img{
+    height: 300px;
+    width: 300px;
+}
+.p-list .prd4{
+    position: absolute;
+    left: 1000px;
+    top:1020px;
+    margin-left: 10px;
+}
+.p-scroll .p-list .prd4 img{
+    height: 200px;
+    width: 200px;
+}
+.p-list .prd5{
+    position: absolute;
+    left: 1330px;
+    top:1100px
+}
+.p-scroll .p-list .prd5 img{
+    height: 100px;
+    width: 100px;
+}
+.home .dots2{
+    text-align: center;
+}
+.home .dots2 .dot{
+    height: 9px;
+    width: 9px;
+    background-color:rgba(83, 81, 81, 0.416);
+    display: inline-block;
+    margin-top: 50px;
+    border-radius: 50%;   
+}
+.p-scroll .dots2 #dot23{
+    background-color: red;
+}
+.p-scroll .mark{
+    height: 40px;
+    width: 40px;
+    background-color: red;
+    text-align: center;
+    align-content: center;
+    cursor: pointer;
+    position: sticky;
+    left: 1500px;
+    bottom:100px;
+    z-index: 10;
+
+}
+.p-scroll .mark i{
+    font-size: 30px;
+    transform: rotate(-90deg);
+    color: white;
+}
+.home .top-pdt h2{
+    color: white;
+    text-align: center;
+    margin-top: 120px;
+    font-size: 30px;
+}
+.home .nav-links{
+    padding: 0px 50px;
+    margin-top: 100px;
+}
+.home .top-pdt .nav-links a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.838);
+    margin-left: 180px;
+}
+.home .top-pdt .nav-links .link:hover{
+    background-color: red;
+    padding: 10px 20px;
+}
+.home .top-pdt .nav-links #l1{
+    background-color: red;
+    padding: 9px 20px;
+    border-radius: 5px;
+}
+.top-pdt .pdt-list{
+    margin-top: 60px;
+    display: flex;
+    flex-wrap:wrap;
+    column-gap: 10px;
+    row-gap: 10px;
+    padding: 0px 30px;
+}
+.top-pdt .pdt-list .pdt{
+    height: 470px;
+    width: 350px;
+    border: 1.5px solid rgba(183, 180, 180, 0.265);
+}
+.top-pdt .pdt-list .pdt #pdiv1{
+    height: 200px;
+    background-color:rgba(45, 45, 45, 0.312);
+    text-align: center;
+    align-content: center;
+}
+.top-pdt .pdt-list .pdt #pdiv1 img{
+    height: 160px;
+    width: 160px;
+}
+.top-pdt .pdt-list .pdt #pdiv1 img:hover{
+    transform: scale(1.1);
+
+}
+.pdt-list .pdt #pdiv2{
+    padding: 20px;
+}
+.pdt-list .pdt #pdiv2 .star i{
+    color: rgba(255, 0, 0, 0.738);
+}
+.pdt #pdiv2 h3{
+    color: rgba(255, 255, 255, 0.814);
+}
+.pdt #pdiv2 p{
+    color: rgba(255, 255, 255, 0.514);
+}
+.pdt #pdiv2 hr{
+    height: 1.5px;
+    background-color: rgba(255, 255, 255, 0.117);
+}
+.pdt #pdiv2 span{
+    color: rgba(255, 255, 255, 0.814);
+    font-size: 25px;
+    margin-top: 30px;
+}
+.pdt #pdiv2 del{
+    color: rgba(255, 255, 255, 0.514);  
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.pdt #pdiv2 button{
+    background-color: red;
+    color: white;
+    padding: 7px 120px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.pdt #pdiv2 button:hover{
+    border: 1px solid white;
+}
+.top-pdt #pdt12 {
+    text-align: center;
+    align-content: center;
+    color: rgba(255, 255, 255, 0.814);
+    font-size: 25px;
+    cursor: pointer;
+}
+.top-pdt #pdt12 i{
+    margin-left: 10px;
+}
+
+
+
+

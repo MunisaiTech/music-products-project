@@ -1,0 +1,215 @@
+body{
+    padding: 0px 10px;
+}
+.main-prd{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 15% 45% 40%;
+    
+}
+.main-prd .col-1 img{
+    height: 120px;
+    width: 120px;
+}
+.main-prd .col-1 div{
+    width: 130px;
+    height: 130px;
+    border: 2px solid rgba(255, 255, 255, 0.368);
+    margin-bottom: 20px;
+    text-align: center;
+    align-content: center;
+}
+.main-prd .col-1 .spl{
+    border: 2px solid white;
+}
+.main-prd .col-1 div:hover{
+    border: 2px solid white;
+    cursor: pointer;
+}
+.main-prd .col-2 img{
+    margin: 20px 0px 50px 0px;
+    height: 600px;
+    width: 600px;
+}
+.col-3 h3{
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.864);
+}
+.col-3 .p1{
+    color:  rgba(255, 255, 255, 0.864);
+    font-size: 20px;
+}
+.col-3 .star i{
+    color: red;
+}
+.main-prd .col-3 hr{
+    height: 1.5px;
+    background-color: rgba(255, 255, 255, 0.117);
+    margin: 40px 0px;
+}
+.col-3 span{
+    color:rgba(255, 255, 255, 0.619);
+}
+.col-3 .btn1{
+    background:rgb(24, 148, 24) ;
+    padding: 6px 12px;
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    top: 400px;
+    left: 1400px;
+}
+.col-3 .btn1:hover{
+    border: 1px solid white;
+    cursor: pointer;
+}
+.col-3 .sp-2{
+    font-size: 30px;
+    color: white;
+}
+.col-3 .sp-2 del{
+    margin-left: 15px;
+    font-size: 25px;
+    color:rgba(255, 255, 255, 0.619);
+}
+.col-3 .p2{
+    font-size: 20px;
+    color:rgb(24, 148, 24);
+}
+.col-3 .p2 span{
+    font-size: 17px;
+}
+.col-3 input{
+    font-size:17px;
+    background: rgb(31, 30, 30);
+    color: rgba(255, 255, 255, 0.864);
+    border: 1px solid rgba(255, 255, 255, 0.37);
+    padding: 9px;
+}
+[name='btn2']{
+    margin-left: 20px;
+}
+.col-3 .btn3{
+    background: red;
+    color: white;
+    padding: 10px 50px;
+    font-size: 15px;
+}
+.col-3 .btn3:hover{
+    border: 1px solid white;
+    cursor: pointer;
+}
+.review .subrev{
+    margin-top: 100px;
+    text-align: center;
+    
+}
+.review div button{
+background: rgb(31, 30, 30);
+color: white;
+font-size: 19px;
+margin:0px 80px;
+padding: 10px 20px;
+cursor: pointer;
+}
+.review div #btn1{
+    background: red;
+}
+.review div .Btn:hover{
+    background: red;
+}
+.review .spec{
+    display: flex;
+    column-gap: 300px;
+    margin-top: 50px;
+}
+.review .spec ul{
+    list-style: none;
+}
+.review .spec ul li{
+    color:  rgba(255, 255, 255, 0.864);
+    margin-bottom: 30px;
+}
+.home .rel-prd h3{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    margin: 80px 0px;
+}
+.top-pdt .pdt-list{
+    margin-top: 60px;
+    display: flex;
+    flex-wrap:wrap;
+    column-gap: 10px;
+    row-gap: 10px;
+    padding: 0px 20px;
+}
+.top-pdt .pdt-list .pdt{
+    height: 470px;
+    width: 350px;
+    border: 1.5px solid rgba(183, 180, 180, 0.265);
+}
+.top-pdt .pdt-list .pdt #pdiv1{
+    height: 200px;
+    background-color:rgba(45, 45, 45, 0.312);
+    text-align: center;
+    align-content: center;
+}
+.top-pdt .pdt-list .pdt #pdiv1 img{
+    height: 160px;
+    width: 160px;
+}
+.top-pdt .pdt-list .pdt #pdiv1 img:hover{
+    transform: scale(1.1);
+}
+.pdt-list .pdt #pdiv2{
+    padding: 20px;
+}
+.pdt-list .pdt #pdiv2 .star i{
+    color: rgba(255, 0, 0, 0.738);
+}
+.pdt #pdiv2 h3{
+    color: rgba(255, 255, 255, 0.814);
+}
+.pdt #pdiv2 p{
+    color: rgba(255, 255, 255, 0.514);
+}
+.pdt #pdiv2 hr{
+    height: 1.5px;
+    background-color: rgba(255, 255, 255, 0.117);
+}
+.pdt #pdiv2 span{
+    color: rgba(255, 255, 255, 0.814);
+    font-size: 25px;
+    margin-top: 30px;
+}
+.pdt #pdiv2 del{
+    color: rgba(255, 255, 255, 0.514);  
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.pdt #pdiv2 button{
+    background-color: red;
+    color: white;
+    padding: 7px 120px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.pdt #pdiv2 button:hover{
+    border: 1px solid white;
+}
+.home .dots{
+    text-align: center;
+}
+.home .dots .dot{
+    height: 9px;
+    width: 9px;
+    background-color:rgba(83, 81, 81, 0.416);
+    display: inline-block;
+    margin-top: 80px;
+    border-radius: 50%;    
+}
+.home .dots #dot1{
+    background-color: red;
+}

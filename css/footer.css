@@ -1,0 +1,109 @@
+.home #s-header{
+    color: rgba(255, 255, 255, 0.832);
+    margin-top: 140px;
+    text-align: center;
+    font-size: 30px;
+}
+.home .tags{
+    display: flex;
+    justify-content: space-evenly;
+    column-gap: 20px;
+}
+.home .tags .tag{
+    display: flex;
+    margin: 70px 0px;
+}
+.home .tags .tag i{
+    color: rgba(255, 0, 0, 0.78);
+    font-size: 30px;
+    margin-right:12px;
+    margin-top: 7px;
+}
+.home .tags .tag span{
+    color: rgba(255, 255, 255, 0.867);
+    font-size: 25px;
+    font-size: 19px;
+}
+.home .tags .tag .tag-sp{
+    color: rgba(255, 255, 255, 0.563);
+    font-size:15px ;
+}
+.home .footer{
+    background-color: rgba(0, 0, 0, 0.794);
+    padding-bottom: 20px;
+}
+.home .ft-1{
+    margin-top: 100px;
+    padding: 20px 10px;
+    display:flex;
+    column-gap: 100px;
+}
+.ft-1 .part1 h2{
+    color: rgba(255, 255, 255, 0.86);
+    font-size: 30px;
+}
+.ft-1 .part1 p{
+    color: rgba(255, 255, 255, 0.563);
+    font-size: 19px;
+}
+.ft-1 .part1 input{
+    background-color:  rgba(0, 0, 0, 0.794);
+    border: 1.5px solid rgba(183, 180, 180, 0.265);
+    padding: 10px 100px 10px 5px;
+}
+.ft-1 .part1 input:hover{
+    border: 1px solid rgba(255, 255, 255, 0.886);
+    color: rgba(255, 255, 255, 0.886);
+
+}
+.ft-1 .part1 button{
+    background-color: red;
+    padding: 10px 20px;
+    margin-top: 15px;
+    cursor: pointer;
+    font-size: 17px;
+}
+.ft-1 .part1 button:hover{
+    border: 1px solid rgba(255, 255, 255, 0.886);
+}
+.ft-1 .part2{
+    display: flex;
+    column-gap:200px;
+}
+.ft-1 .part2 h2{
+    color: rgba(255, 255, 255, 0.86);
+}
+.ft-1 .part2 li {
+    list-style:none;
+    margin-top: 19px;
+    font-size: 19px;
+
+}
+.ft-1 .part2 li a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.563);
+}
+.ft-1 .part2 li a:hover{
+    color: rgba(255, 255, 255, 0.944);
+    text-decoration: underline;
+}
+.footer hr{
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.149);
+    margin: 40px 0;
+}
+.footer .ft-2 span{
+    color: rgba(255, 255, 255, 0.563);
+    font-size: 20px;
+    margin-left: 10px;
+    margin-bottom: 100px;
+}
+.footer .ft-2 .social-links{
+    margin-left: 600px;
+}
+.footer .ft-2 .social-links i{
+    margin-left: 50px;
+}
+.footer .ft-2 .social-links i:hover{
+    color: white;
+}
